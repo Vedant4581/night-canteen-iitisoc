@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+
+.Back{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 32px;
+}
+.signup-page-container{
+    display: flex;
+    height: 100dvh;
+    width: 100dvw;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-container{
+    background-color: var(--white-bg-transparent-30);
+    width: 320px;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+div>input{
+    background-color: var(--white-bg-transparent-30);
+    border: 0;
+    border-radius: 4px;
+    height: 2rem;
+    width: 100%;
+    margin : 2px;
+}
+form>button{
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 24px;
+    color: white;
+    margin-left: 50%;
+    translate: -50% 0;
+    margin-top: 2rem;
+    padding: 4px 16px;
+    font-size: 24px;
+}

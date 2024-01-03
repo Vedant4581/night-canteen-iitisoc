@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Road+Rage&display=swap');
+
+:root{
+  --primary-color: #ffbb00fa;
+  --font-style-1: 'Lora', serif;
+  --white-bg-transparent-30: rgb(255,255,255,0.3);
+  --white-bg-transparent-50: rgb(255,255,255,0.5);
+}
+
+
+hr {
+  border: 0 none;
+  height: 1px;
+  background-color: black;
+}
+p {
+  margin: 0;
+}

@@ -1,0 +1,19 @@
+.login-bar {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    left: 40px;
+    width: 274px;
+    height: 43px;
+    margin-top: 40px;
+  }
+  .bar {
+    position: relative;
+    left: 10px;
+    background-color: #fff3f380;
+    width: 244px;
+    height: 43px;
+    border-radius: 5px ;
+    border: 0;
+  }

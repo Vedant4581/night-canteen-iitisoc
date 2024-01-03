@@ -1,0 +1,45 @@
+.food-card-container{
+    display: grid;
+    position: relative;
+    width: 100%;
+    grid-template-columns: 80px 200px auto  ;
+    grid-template-rows: 80px;
+    align-items: center;
+    margin: 10px 0;
+}
+.circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgba(255, 81, 0, 0.438);
+}
+.number-button-container {
+    display: flex;
+    position: relative;
+    right: 10px;
+    gap: 10px;
+    align-items: center;
+}
+.number-button-container>p{
+    margin:0;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.number-button-container>button{
+    background-color: #ffffff00;
+    border: 0;
+}
+.text-container>p{
+    margin: 0;
+}
+.remove-button-container{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.remove-button{
+    background-color: #ffffff00;
+    border: 0;
+}

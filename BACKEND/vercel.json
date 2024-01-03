@@ -1,0 +1,11 @@
+
+{
+   "version": 2,
+   "name": "NIGHT-CANTEEN",
+   "builds": [
+      { "src": "App.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/App.js" }
+   ]
+}

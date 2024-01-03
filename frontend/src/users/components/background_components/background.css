@@ -1,0 +1,12 @@
+body {
+    background-color: #fdeedc;
+}
+#background {
+    position: fixed;
+    height: 100vh;
+    width: 100dvw;
+    background-color: #f6ccb0;
+    /* background-color: cyan; */
+    filter: blur(200px);
+    z-index: -1;
+}

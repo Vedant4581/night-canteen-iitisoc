@@ -1,0 +1,10 @@
+.about-page-container{
+    padding: 32px;
+}
+.about-page-container>h1{
+    display: inline;
+    border-bottom: 2px solid black;
+}
+.about-page-container>p{
+    margin-top: 8px;
+}
